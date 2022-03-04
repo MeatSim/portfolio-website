@@ -1,0 +1,48 @@
+TIMOTHY HSU
+Software Developer
+timothy@timothycodes.com
+github.com/MeatSim
+
+SKILLS
+ * React **				 * Redux *
+ * JavaScript ***			 * React Router *
+ * HTML **				 * Node *
+ * CSS **				 * Git *
+ * Python **
+
+
+EXPERIENCE
+React
+ * Used the Spotify API in an app that allows a user to search for tracks, create a playlist, and add it to the user's profile
+ * Implemented a tic-tac-toe game that displays the next player, displays the winner, and allows going back to previous moves
+    * Added a feature to display "Tie game" if there is a draw
+    * Added a feature to highlight the three squares that caused a win
+ * Used React Router to display profiles based on search results
+
+JavaScript
+ * Implemented an interactive Node.js terminal game that randomizes a field full of holes for the player to navigate through
+ * Coded a JavaScript class that includes methods to encrypt and decrypt messages using shift cipher
+ * Coded a factory function to create objects simulating organisms with methods to mutate, compare, evaluate, and mirror DNA strands
+
+HTML/CSS
+ * Created responsive club website with navigation bar, fonts, and images that respond to screen size
+ * Used flexbox to create company website with navigation bar, products section, and employee section that automatically change layout as the page shrinks
+
+Python
+ * Used Tkinter with MVC pattern to implement Conway's Game of Life with random, glider gun, and draw options; added feature to make cells on the edge of the board wrap around the other side
+ * Implemented a word game where the player tries to form words from a hand of randomly dealt letters and is scored based on Scrabble letter values
+ * Implemented a hangman game where the player tries to guess all the letters of a random word without too many wrong guesses
+
+
+CERTIFICATIONS
+ * Codecademy Learn React Router Course
+ * Codecademy Learn Intermediate JavaScript Course
+ * Codecademy Building Interactive JavaScript Websites Course
+
+
+SERVICE
+Contributed to open-source projects:
+ * Redux
+ * Visual Studio Code Documentation
+ * Destiny Item Manager
+Answer questions in Codecademy Community Discord server's #full-stack-engineer channel
