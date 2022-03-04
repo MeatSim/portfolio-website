@@ -1,12 +1,12 @@
 TIMOTHY HSU
 Software Developer
 timothy@timothycodes.com
-github.com/MeatSim
+https://github.com/MeatSim
 
 SKILLS
  * React **				 * Redux *
  * JavaScript ***			 * React Router *
- * HTML **				 * Node *
+ * HTML **				 * Node.js *
  * CSS **				 * Git *
  * Python **
 
@@ -25,13 +25,14 @@ JavaScript
  * Coded a factory function to create objects simulating organisms with methods to mutate, compare, evaluate, and mirror DNA strands
 
 HTML/CSS
- * Created responsive club website with navigation bar, fonts, and images that respond to screen size
- * Used flexbox to create company website with navigation bar, products section, and employee section that automatically change layout as the page shrinks
+ * Created a responsive club website with navigation bar, fonts, and images that respond to screen size based on media queries
+ * Used Flexbox to create a company website with navigation bar, products section, and employee section that automatically change layout as the page shrinks
 
 Python
- * Used Tkinter with MVC pattern to implement Conway's Game of Life with random, glider gun, and draw options; added feature to make cells on the edge of the board wrap around the other side
+ * Used Tkinter with MVC pattern to implement Conway's Game of Life with random, glider gun, and draw options
+    * Added a feature to make the board's edges wrap around to the other side
  * Implemented a word game where the player tries to form words from a hand of randomly dealt letters and is scored based on Scrabble letter values
- * Implemented a hangman game where the player tries to guess all the letters of a random word without too many wrong guesses
+ * Implemented a hangman game where the player tries to guess all the letters of a random word without reaching a set limit of wrong guesses
 
 
 CERTIFICATIONS
@@ -41,8 +42,8 @@ CERTIFICATIONS
 
 
 SERVICE
-Contributed to open-source projects:
- * Redux
- * Visual Studio Code Documentation
- * Destiny Item Manager
-Answer questions in Codecademy Community Discord server's #full-stack-engineer channel
+ * Answer questions in Codecademy Community Discord server's #full-stack-engineer channel
+ * Contributed to open-source projects:
+    * Redux- 1 pull request merged
+    * Visual Studio Code Documentation- 3 pull requests merged
+    * Destiny Item Manager- 1 pull request merged
