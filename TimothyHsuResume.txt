@@ -15,8 +15,8 @@ EXPERIENCE
 React
  * Used the Spotify API in an app that allows a user to search for tracks, create a playlist, and add it to the user's profile
  * Implemented a tic-tac-toe game that displays the next player, displays the winner, and allows going back to previous moves
-    * Added a feature to display "Tie game" if there is a draw
-    * Added a feature to highlight the three squares that caused a win
+    * Added a feature (most difficult out of 6) to display "Tie game" if there is a draw
+    * Added a feature (second most difficult out of 6) to highlight the three squares that caused a win
  * Used React Router to display profiles based on search results
 
 JavaScript
