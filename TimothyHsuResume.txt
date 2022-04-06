@@ -6,9 +6,9 @@ https://github.com/MeatSim
 SKILLS
  * React **				 * Redux *
  * JavaScript ***			 * React Router *
- * HTML **				 * Node.js *
- * CSS **				 * Git *
- * Python **
+ * HTML **				 * React Native *
+ * CSS **				 * TypeScript *
+ * Python **				 * Node.js *
 
 
 EXPERIENCE
@@ -36,7 +36,7 @@ Python
 
 
 CERTIFICATIONS
- * Codecademy Learn React Router Course
+ * Codecademy Learn React Native Course
  * Codecademy Learn Intermediate JavaScript Course
  * Codecademy Building Interactive JavaScript Websites Course
 
