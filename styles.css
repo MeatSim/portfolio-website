@@ -1,4 +1,42 @@
+@font-face {
+    font-family: "Green Screen";
+    src: url(fonts/green_screen/Greenscr.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Withheld Data";
+    src: url(fonts/withheld-data-font/WithheldData-wVKz.woff2) format("woff2");
+    src: url(fonts/withheld-data-font/Withheld\ Data-252e.woff) format("woff");
+}
+
+@font-face {
+    font-family: "OCR-A";
+    src: url(fonts/ocr-a\ regular.woff2) format("woff2");
+    src: url(fonts/ocr-a-regular.woff) format("woff");
+}
+
 body {
     background-color: black;
     color: lime;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Green Screen";
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Withheld Data";
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "OCR-A";
+    font-size: 1.5rem;
+}
+
+p, ul, a {
+    font-family: "OCR-A";
+    font-size: 1rem;
 }
