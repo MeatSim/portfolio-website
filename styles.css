@@ -24,6 +24,7 @@ body {
     color: lime;
     text-align: center;
     font-family: "OCR-A";
+    margin: 0;
 }
 
 h1 {
@@ -137,4 +138,14 @@ button:hover {
 #linkedin {
     height: 64px;
     margin: 0 10px;
+}
+
+/* resume styling */
+
+#resume {
+    max-width: 100%;
+}
+
+.resume a {
+    color: lime;
 }
