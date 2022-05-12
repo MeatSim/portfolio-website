@@ -49,6 +49,20 @@ a {
     text-decoration: none;
 }
 
+@media screen and (max-width: 450px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+}
+
 /* header styling */
 
 header {
@@ -58,7 +72,8 @@ header {
 }
 
 header img {
-    width: 5%;
+    width: 100px;
+    margin: 0;
     float: left;
 }
 
@@ -74,10 +89,56 @@ ul {
     padding-left: 0;
 }
 
+@media screen and (max-width: 800px) {
+    header img {
+        width: 10%;
+    }
+
+    ul {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    ul {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header img {
+        display: none;
+    }
+    
+    ul {
+        padding: 0.5rem;
+    }
+}
+
 /* banner styling */
 
 .banner {
     margin: 8rem;
+}
+
+@media screen and (max-width: 900px) {
+    .banner {
+        margin: 4rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banner {
+        margin: 2rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
 }
 
 /* projects styling */
@@ -122,10 +183,53 @@ button:hover {
     transition: .3s ease;
 }
 
+@media screen and (max-width: 1100px) {
+    .project {
+        max-width: 45%;
+        margin: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    section {
+        padding: 2rem 0;
+    }
+
+    p {
+        padding: 0 0.5rem;
+    }
+    
+    .project {
+        max-width: 100%;
+        margin: 2rem 1rem;
+    }
+    
+    .project img {
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    section {
+        padding: 1rem 0;
+    }
+    
+    button {
+        padding: 0.25rem 1rem;
+        font-size: 0.75rem;
+    }
+}
+
 /* skills styling */
 
 #skills li {
     margin: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    #skills li {
+        margin: 1rem;
+    }
 }
 
 /* contacts styling */
