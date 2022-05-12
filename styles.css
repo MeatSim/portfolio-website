@@ -1,3 +1,5 @@
+/* fonts */
+
 @font-face {
     font-family: "Green Screen";
     src: url(fonts/green_screen/Greenscr.woff2) format("woff2");
@@ -15,15 +17,18 @@
     src: url(fonts/ocr-a-regular.woff) format("woff");
 }
 
+/* general styling */
+
 body {
     background-color: black;
     color: lime;
     text-align: center;
+    font-family: "OCR-A";
 }
 
 h1 {
     font-family: "Green Screen";
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
@@ -31,12 +36,106 @@ h2 {
     font-size: 2rem;
 }
 
-h3 {
-    font-family: "OCR-A";
+h3, ul {
     font-size: 1.5rem;
 }
 
-p, ul, a {
-    font-family: "OCR-A";
+p {
     font-size: 1rem;
+}
+
+a {  
+    text-decoration: none;
+}
+
+/* header styling */
+
+header {
+    padding: 2rem;
+    margin: -1rem;
+    background-color: white;
+}
+
+header img {
+    width: 5%;
+    float: left;
+}
+
+ul,
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* banner styling */
+
+.banner {
+    margin: 10rem;
+}
+
+/* projects styling */
+
+section {
+    margin: 8rem 0;
+    padding: 2rem;
+}
+
+#projects {
+    background-color: #191919;
+}
+
+.project {
+    max-width: 30%;
+    margin: 2rem 0;
+}
+
+.project img {
+    max-width: 100%;
+    max-height: 286px;
+    object-fit: cover;
+    background-position: top;
+}
+
+.project img:hover {
+    opacity: 0.7;
+    transition: .5s ease;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    background-color: lime;
+    font-family: "OCR-A";
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: green;
+    color: lime;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+/* skills styling */
+
+#skills li {
+    margin: 2rem;
+}
+
+/* contacts styling */
+
+#contact {
+    background-color: #ddd;
+    color: green;
+}
+
+#linkedin {
+    height: 64px;
+    margin: 0 10px;
 }
