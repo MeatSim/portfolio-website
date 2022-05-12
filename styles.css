@@ -104,6 +104,13 @@ ul {
     }
 }
 
+@media screen and (max-width: 750px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+}
+
 @media screen and (max-width: 500px) {
     header {
         padding: 0.4rem;
