@@ -26,8 +26,16 @@
         </section>
         <section id="projects">
             <h2>Projects</h2>
+            <label for="languages">Filter by</label>
+            <select name="languages" id="languages">
+                <option value="project">none</option>
+                <option value="react">React</option>
+                <option value="javascript">JavaScript</option>
+                <option value="html">HTML/CSS</option>
+                <option value="python">Python</option>
+            </select>
             <div class="container">
-                <div class="project">
+                <div id="tictactoe" class="project react">
                     <div class="hover">
                         <a href="https://codepen.io/meatsim/pen/BamaPYj">
                             <img src="images/tictactoe.gif" alt="animated tic-tac-toe game">
@@ -39,7 +47,7 @@
                     <p>Tic-tac-toe game displays the next player, displays "Tie game" if there is a draw, displays the winner, highlights the three squares that caused a win, and allows going back to previous moves.</p>
                     <a href="https://codepen.io/meatsim/pen/BamaPYj"><button>GO</button></a>
                 </div>
-                <div class="project">
+                <div class="project python">
                     <div class="hover">
                         <a href="https://github.com/MeatSim/game-of-life">
                             <img src="images/gameoflife.gif" alt="animated Conway's game of life">
@@ -51,7 +59,7 @@
                     <p>Conway's Game of Life with random, glider gun, and draw options. The board's edges wrap around to the other side.</p>
                     <a href="https://github.com/MeatSim/game-of-life"><button>GO</button></a>
                 </div>
-                <div class="project">
+                <div class="project javascript">
                     <div class="hover">
                         <a href="https://github.com/MeatSim/find-your-hat">
                             <img src="images/findyourhat.gif" alt="animated find your hat game">
@@ -63,7 +71,7 @@
                     <p>Node.js interactive terminal game where you navigate through a field full of holes to find your hat.</p>
                     <a href="https://github.com/MeatSim/find-your-hat"><button>GO</button></a>
                 </div>
-                <div class="project">
+                <div class="project react">
                     <div class="hover">
                         <a href="https://vibrant-jang-a7300a.netlify.app/">
                             <img class="website" src="images/petlover.png" alt="Petlover website">
@@ -75,7 +83,7 @@
                     <p>React Router SPA (single-page application) website that displays profiles based on filter links and search results.</p>
                     <a href="https://vibrant-jang-a7300a.netlify.app/"><button>GO</button></a>
                 </div>
-                <div class="project">
+                <div class="project html">
                     <div class="hover">
                         <a href="https://meatsim.github.io/responsive-club-website/">
                             <img class="website" src="images/fightclub.png" alt="Fight Club website">
@@ -87,7 +95,7 @@
                     <p>Fight Club-themed responsive club website with navigation bar, images, and fonts that change according to screen size.</p>
                     <a href="https://meatsim.github.io/responsive-club-website/"><button>GO</button></a>
                 </div>
-                <div class="project">
+                <div class="project html">
                     <div class="hover">
                         <a href="https://meatsim.github.io/flexbox-company-homepage/">
                             <img class="website" src="images/kittehco.png" alt="Kitteh Co website">
@@ -134,5 +142,6 @@
     </footer>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="typewriter.js"></script>
+    <script src="filter.js"></script>
 </body>
 </html>
