@@ -69,6 +69,7 @@ header {
     padding: 1rem;
     margin: 0;
     background-color: white;
+    z-index: 10;
 }
 
 header img {
@@ -216,7 +217,6 @@ section {
 
 .hover:hover .button {
     opacity: 1;
-    z-index: 10;
 }
 
 button {
