@@ -80,7 +80,8 @@ header img {
 }
 
 ul,
-.container {
+.container,
+details div {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -275,6 +276,14 @@ button:hover {
 
 #skills li {
     margin: 2rem;
+}
+
+details ul {
+    display: block;
+}
+
+details li {
+    text-align: left;
 }
 
 @media screen and (max-width: 700px) {
