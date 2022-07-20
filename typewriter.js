@@ -38,4 +38,7 @@ typewriter
     .deleteChars(3)
     .typeString('Python')
     .pauseFor(2500)
+    .deleteChars(6)
+    .typeString('SQL')
+    .pauseFor(2500)
     .start();
